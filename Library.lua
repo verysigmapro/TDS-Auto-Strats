@@ -852,7 +852,7 @@ function TDS:Loadout(...)
 end
 
 function TDS:Addons()
-    local url = "https://api.junkie-development.de/api/v1/luascripts/public/57fe397f76043ce06afad24f07528c9f93e97730930242f57134d0b60a2d250b/download"
+    local url = "https://raw.githubusercontent.com/verysigmapro/TDS-Auto-Strats/refs/heads/main/Sources/Addons.lua"
     local success, code = pcall(game.HttpGet, game, url)
 
     if not success then
