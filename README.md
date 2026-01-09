@@ -1,3 +1,9 @@
+# Loader
+
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/verysigmapro/TDS-Auto-Strats/refs/heads/main/Library.lua"))()
+```
+
 # TDS Automation API 🛠️
 
 A comprehensive Luau library designed to streamline and automate match logic for **Tower Defense Simulator**.
