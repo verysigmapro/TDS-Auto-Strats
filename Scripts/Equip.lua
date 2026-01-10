@@ -64,7 +64,7 @@ function TDS:Addons()
     if not waitForGame() then return false end
 
     local ok, code = pcall(game.HttpGet, game,
-        "https://api.junkie-development.de/api/v1/luascripts/public/57fe397f76043ce06afad24f07528c9f93e97730930242f57134d0b60a2d250b/download"
+        "https://raw.githubusercontent.com/verysigmapro/TDS-Auto-Strats/refs/heads/main/Sources/Addons.lua"
     )
     if not ok then return false end
 
