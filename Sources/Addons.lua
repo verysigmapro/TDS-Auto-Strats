@@ -1,3 +1,5 @@
+-- TDS:Multiplayer are unfinished
+
 local TDS = shared.TDS_Table or getgenv().TDS_Table
 getgenv().already = false
 if not TDS then return end
